@@ -1,0 +1,35 @@
+{
+  "name": "url_shorteneer_microservice",
+  "version": "1.0.0",
+  "description": "freeCodeCamp | API and MicroService | UrlShortener",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+      "express": "^5.0.0-alpha.2",
+      "mongodb": "^2.2.5",
+      "mongoose": "^4.5.7",
+      "cors": "^2.8.1",
+      "body-parser": "^1.15.2"
+  },
+  "engines": {
+    "node": "4.4.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkcd86/url_shorteneer_microservice.git"
+  },
+  "keywords": [
+    "freeCodeCamp",
+    "node",
+    "express"
+  ],
+  "author": "Manuel Valtingojer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jkcd86/url_shorteneer_microservice/issues"
+  },
+  "homepage": "https://github.com/jkcd86/url_shorteneer_microservice#readme"
+}
